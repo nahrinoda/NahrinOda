@@ -54,11 +54,11 @@ jobs:
             if (pct <= 1) print "S"
             else if (pct <= 12.5) print "A+"
             else if (pct <= 25) print "A"
-            else if (pct <= 37.5) print "A-"
-            else if (pct <= 55) print "B+"
-            else if (pct <= 70) print "B"
-            else if (pct <= 82.5) print "B-"
-            else if (pct <= 92.5) print "C+"
+            else if (pct <= 50) print "A-"
+            else if (pct <= 65) print "B+"
+            else if (pct <= 75) print "B"
+            else if (pct <= 85) print "B-"
+            else if (pct <= 95) print "C+"
             else print "C"
           }')
 
